@@ -1,0 +1,166 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+/* Base fonts */
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+h4 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+p,
+li {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
+/* Generic Styles */
+section {
+  border: 2px solid #000;
+  padding: 1rem 1rem 2rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* Project Colors */
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5%;
+}
+
+.one .box {
+  width: clamp(200px, 31%, 600px);
+  margin: 1rem 0;
+  padding: 1em 1em;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.144);
+}
+.box-one {
+  background-color: #f1f8fa;
+}
+.box-two {
+  background-color: #e4b445;
+}
+.box-three {
+  background-color: #507f85;
+}
+
+/* Project fonts */
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+
+.two .box {
+  width: max-content;
+}
+
+.subtitle {
+  border-bottom: solid 1px black;
+}
+
+.heading,
+.heading + * {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.4;
+}
+
+.text,
+.text + * {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+.italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Project Font styles */
+
+ul {
+  margin: 0 3rem;
+}
+
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+.three .box {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.158);
+  padding: 0rem 1rem 1rem 1rem;
+  flex: 1 1 30%;
+}
+
+@media screen and (min-width: 540px) {
+  .three .box {
+    min-width: max-content;
+  }
+}
+
+.h1style {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+}
+.h2style {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+.h3style {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+}
+.h4style {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+.pstyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+.labelstyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+.smalllabelstyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
