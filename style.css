@@ -11,6 +11,7 @@
 body {
   max-width: 1200px;
   margin: 1rem auto;
+  padding: 0 1rem;
 }
 
 /* Base fonts */
@@ -56,7 +57,9 @@ section {
 }
 
 .one .box {
-  width: clamp(200px, 31%, 600px);
+  min-width: 250px;
+  max-width: 750px;
+  flex: 1 1 31%;
   margin: 1rem 0;
   padding: 1em 1em;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.144);
